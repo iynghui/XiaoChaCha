@@ -1,0 +1,12 @@
+{
+  "name": "xiaochacha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "校查查：院校标签与全球大学排名查询工具",
+  "scripts": {
+    "dev": "node server.cjs",
+    "start": "node server.cjs",
+    "check": "node --check app.js && node --check server.cjs && node --check scripts/build.cjs",
+    "build": "node scripts/build.cjs"
+  }
+}

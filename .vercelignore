@@ -1,0 +1,36 @@
+# Dependencies, generated files, and local state
+node_modules/
+dist/
+.DS_Store
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+common-tier-preview.jpg
+
+# Local agent instructions and tool configuration
+[Aa][Gg][Ee][Nn][Tt]*.[Mm][Dd]
+SKILL.md
+CLAUDE.md
+GEMINI.md
+.agents/
+.codex/
+.claude/
+.cursor/
+.openai/
+.mcp.json
+.cursorrules
+.github/copilot-instructions.md
+.github/instructions/
+
+# Research, scratch files, and temporary assets
+work/
+tmp/
+research/
+
+# Only application source and build configuration are uploaded
+README.md
+docs/
+tests/
+.git/
